@@ -2,8 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from '@/components/Home'
-//import Sub from '@/components/Sub'
-import Signin from '@/components/Signin'
+import Sub from '@/components/Sub'
 
 Vue.use(Router)
 
@@ -15,7 +14,7 @@ export default new Router({
     },
     {
       path: '/sub',
-      component: Signin
+      component: Sub
     }
   ]
 })

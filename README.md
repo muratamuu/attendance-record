@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### push S3
+```
+aws --profile admin s3 sync dist/ s3://sample.muratamuu.com --acl public-read
+```
